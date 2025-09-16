@@ -1,0 +1,46 @@
+#container{
+    width: 786px;
+    height: auto;
+    margin: 0  auto;
+    
+}
+.card{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    border: #333 1px solid;
+    
+    margin-bottom: 16px;
+}
+.img-card{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(145, 6, 6);
+
+}
+.img-card img{
+    width: 100px;
+}
+.text-card{
+    width: 550px;
+}
+@media  screen and (max-width:786px) {
+
+    #container{
+    width:100%;
+    }
+
+.card{
+    width: 100%;
+    flex-direction: column;
+
+}
+.img-card{
+    width:100%;
+}
+.text-card{
+    width: 100%;
+}
+}
+
